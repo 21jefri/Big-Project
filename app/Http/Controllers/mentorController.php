@@ -10,8 +10,4 @@ class mentorController extends Controller
     {
         return response()->view('mentor.dashboard');
     }
-    protected function presentasi()
-    {
-        return response()->view('mentor.presentasi');
-    }
 }

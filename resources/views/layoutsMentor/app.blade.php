@@ -150,8 +150,8 @@
                               <div class="mx-2">Dashboard</div>
                             </a>
                     </li>
-                    <li class="menu-item  {{ request()->routeIs('presentasi.mentor') ? 'active' : '' }}">
-                        <a href="{{ route('presentasi.mentor') }}" class="menu-link">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">
                             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23" fill="none">
                                 <mask id="path-1-inside-1_1_13580" fill="white">
                                   <path d="M21.5807 9.96484C21.5269 9.96484 21.4737 9.97387 21.424 9.9914C21.3743 10.0089 21.3291 10.0346 21.2911 10.067C21.2531 10.0994 21.2229 10.1379 21.2024 10.1802C21.1818 10.2225 21.1712 10.2679 21.1712 10.3137V10.7559C21.1691 10.8028 21.1782 10.8495 21.1979 10.8934C21.2175 10.9372 21.2473 10.9771 21.2855 11.0109C21.3237 11.0447 21.3695 11.0716 21.4202 11.0899C21.4709 11.1082 21.5253 11.1177 21.5804 11.1177C21.6355 11.1177 21.6899 11.1082 21.7406 11.0899C21.7913 11.0716 21.8371 11.0447 21.8753 11.0109C21.9135 10.9771 21.9433 10.9372 21.9629 10.8934C21.9826 10.8495 21.9917 10.8028 21.9896 10.7559V10.3137C21.9897 10.2679 21.9792 10.2225 21.9587 10.1802C21.9381 10.1379 21.908 10.0994 21.87 10.067C21.8321 10.0346 21.787 10.0089 21.7373 9.99141C21.6877 9.97387 21.6344 9.96484 21.5807 9.96484Z"/>
@@ -287,7 +287,7 @@
                             <li class="nav-item dropdown-shortcuts navbar-dropdown dropdown me-2 me-xl-0">
                                 <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);"
                                     data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                                    {{-- <i class='ti ti-layout-grid-add ti-md'></i> --}}
+                                    <i class='ti ti-layout-grid-add ti-md'></i>
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-end py-0">
                                     <div class="dropdown-menu-header border-bottom">
